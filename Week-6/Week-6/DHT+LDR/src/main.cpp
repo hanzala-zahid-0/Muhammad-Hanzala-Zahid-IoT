@@ -92,7 +92,7 @@ void loop() {
 
   display.setCursor(0, 48);
   display.print("Voltage: ");
-  display.print(voltage, 2);
+  display.print(voltage, 2);       
   display.println(" V");
 
   display.display(); // update OLED
